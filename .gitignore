@@ -1,0 +1,29 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+build/*
+MANIFEST
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# File used for testing code (mainly plots)
+runtest.py
+run.py
+
+*.eps
+
+# Coverage
+.coveragerc
+cover/
+.tox
+*.egg*
+exodata/tests/.hypothesis
+.hypothesis
+docs/_build
+docs/_build_html
+texput.log
+
+.env
